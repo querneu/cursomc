@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lucas.domain.Categoria;
+import com.lucas.cursomc.domain.Categoria;
 @RestController
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
